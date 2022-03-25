@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d97dfde5976827",
+        "id": "36aada17d6a5c38b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Introduction.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "start",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b3d97dfde5976827",
+  "active": "36aada17d6a5c38b",
   "lastOpenFiles": [
-    "README.md"
+    "Introduction.md",
+    "First Steps/First Steps.md",
+    "Playlists.md",
+    "README.md",
+    "Side Notes.md",
+    "Essentials/Application Context.md",
+    "Essentials/Essential Concepts.md",
+    "Essentials/Beans.md",
+    "Essentials/Dependency Injection.md",
+    "sample.md"
   ]
 }
