@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "36aada17d6a5c38b",
+        "id": "ab4f149b75e62031",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Introduction.md",
+            "file": "Essentials/Beans.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction.md",
+                "file": "Essentials/Beans.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "36aada17d6a5c38b",
+  "active": "ab4f149b75e62031",
   "lastOpenFiles": [
-    "Introduction.md",
+    "Essentials/Beans.md",
+    "Side Notes.md",
     "First Steps/First Steps.md",
+    "Introduction.md",
+    "Essentials/Essential Concepts.md",
+    "Essentials/Dependency Injection.md",
     "Playlists.md",
     "README.md",
-    "Side Notes.md",
     "Essentials/Application Context.md",
-    "Essentials/Essential Concepts.md",
-    "Essentials/Beans.md",
-    "Essentials/Dependency Injection.md",
     "sample.md"
   ]
 }

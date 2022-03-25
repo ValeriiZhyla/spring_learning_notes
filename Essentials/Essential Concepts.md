@@ -1,3 +1,3 @@
-[[Dependency Injection]]
-[[Beans]]
-[[Application Context]]
+- [[Dependency Injection]]
+- [[Beans]]
+- [[Application Context]]
