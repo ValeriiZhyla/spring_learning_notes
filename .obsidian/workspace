@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Essentials/Beans.md",
+            "file": "Essentials/Application Context.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Essentials/Beans.md",
+                "file": "Essentials/Application Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "ab4f149b75e62031",
   "lastOpenFiles": [
+    "Essentials/Application Context.md",
+    "Essentials/Bean Scopes.md",
     "Essentials/Beans.md",
+    "Essentials/Dependency Injection.md",
+    "Spring Data.md",
+    "Spring Boot.md",
+    "Spring Core.md",
     "Side Notes.md",
     "First Steps/First Steps.md",
-    "Introduction.md",
-    "Essentials/Essential Concepts.md",
-    "Essentials/Dependency Injection.md",
-    "Playlists.md",
-    "README.md",
-    "Essentials/Application Context.md",
-    "sample.md"
+    "Introduction.md"
   ]
 }

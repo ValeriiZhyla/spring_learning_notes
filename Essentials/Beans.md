@@ -5,6 +5,10 @@ Bean concept: https://www.youtube.com/watch?v=xlWwMSu5I70&list=PLC97BDEFDCDD169D
 
 Code tutorial for Bean Factories: https://www.youtube.com/watch?v=7c6ZTF6cF88&list=PLC97BDEFDCDD169D7&index=4
 
+There are three ways to create Beans:
+- XML old and deprecated way
+- @Component - for classes of application
+- @Bean - for classes from libs
 
 The usage of XmlBeanFactory (and XML beans) is deprecated, this is an example of "oldest" way to create a bean.
 
@@ -56,3 +60,5 @@ class MyConfigurationClass {
 	}  
 }
 ```
+
+The scope of a Spring bean defines how many instances of a particular class the framework creates at runtime. The scope also describes on what condition a new object is created. [[Bean Scopes]]
