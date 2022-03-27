@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Boot/CommandLineRunner.md",
+            "file": "Backbone/1.Basics.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Boot/CommandLineRunner.md",
+                "file": "Backbone/1.Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
+    "Backbone/1.Basics.md",
+    "Controller Interface.md",
+    "Spring MVC/Spring MVC.md",
+    "Spring Boot/Spring Boot.md",
+    "Spring MVC/RestController.md",
     "Spring Boot/CommandLineRunner.md",
     "Basics/Application Context.md",
     "Basics/Dependency Injection.md",
     "Basics/Essential Concepts.md",
-    "Basics/Event Handling.md",
-    "Basics/Lifecycle Callbacks.md",
-    "Spring Boot/Spring Boot.md",
-    "Backbone/3.Spring MVC.md",
-    "Spring MVC/Spring MVC.md",
-    "Spring MVC/RestController.md"
+    "Basics/Event Handling.md"
   ]
 }
