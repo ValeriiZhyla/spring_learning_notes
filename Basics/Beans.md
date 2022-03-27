@@ -61,4 +61,7 @@ class MyConfigurationClass {
 }
 ```
 
-The scope of a Spring bean defines how many instances of a particular class the framework creates at runtime. The scope also describes on what condition a new object is created. [[Bean Scopes]]
+
+The scope of a Spring bean defines how many instances of a particular class the framework creates at runtime. The scope also describes on what condition a new object is created. More about scopes: [[Bean Scopes]]
+
+There are many stages of bean lifecycle. Main lifecycle callbacks: [[Lifecycle Callbacks]]

@@ -1,2 +1,0 @@
-- Motivation and idea of Spring: https://www.youtube.com/watch?v=gq4S-ovWVlM
-- [[Essential Concepts]]

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ab4f149b75e62031",
+        "id": "b77c72b4f451b3b4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Essentials/Application Context.md",
+            "file": "Basics/First Steps.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Essentials/Application Context.md",
+                "file": "Basics/First Steps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab4f149b75e62031",
+  "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
-    "Essentials/Application Context.md",
-    "Essentials/Bean Scopes.md",
-    "Essentials/Beans.md",
-    "Essentials/Dependency Injection.md",
-    "Spring Data.md",
-    "Spring Boot.md",
-    "Spring Core.md",
-    "Side Notes.md",
-    "First Steps/First Steps.md",
-    "Introduction.md"
+    "Basics/First Steps.md",
+    "Basics/Event Handling.md",
+    "Basics/Essential Concepts.md",
+    "Essentials/Java Annotations.md",
+    "Basics/Lifecycle Callbacks.md",
+    "Basics/Beans.md",
+    "Basics/Bean Scopes.md",
+    "Introduction.md",
+    "Playlists.md",
+    "Basics/Autowiring.md"
   ]
 }
