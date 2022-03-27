@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SpringBoot/Spring Boot.md",
-            "mode": "preview",
+            "file": "Spring MVC/Spring MVC.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SpringBoot/Spring Boot.md",
+                "file": "Spring MVC/Spring MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
-    "SpringBoot/Spring Boot.md",
+    "Spring MVC/Spring MVC.md",
+    "Spring MVC/RestController.md",
     "Backbone/2.Spring Boot.md",
-    "Basics/Essential Concepts.md",
+    "Backbone/3.Spring MVC.md",
+    "Spring Boot/Spring Boot.md",
+    "Spring Boot/Controller.md",
     "Backbone/1.Basics.md",
+    "Spring Boot/CommandLineRunner.md",
     "Introduction.md",
-    "Backbone/3.Undefined.md",
-    "Basics/Event Handling.md",
-    "Basics/Dependency Injection.md",
-    "Basics/Lifecycle Callbacks.md",
-    "Spring Core.md"
+    "Side Notes.md"
   ]
 }

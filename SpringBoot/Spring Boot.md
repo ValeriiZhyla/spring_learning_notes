@@ -1,2 +1,0 @@
-- [[CommandLineRunner]]
-- [[SpringBootApplication]]
