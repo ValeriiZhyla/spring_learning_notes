@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Basics/First Steps.md",
-            "mode": "source",
+            "file": "SpringBoot/Spring Boot.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basics/First Steps.md",
+                "file": "SpringBoot/Spring Boot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
-    "Basics/First Steps.md",
-    "Basics/Event Handling.md",
+    "SpringBoot/Spring Boot.md",
+    "Backbone/2.Spring Boot.md",
     "Basics/Essential Concepts.md",
-    "Essentials/Java Annotations.md",
-    "Basics/Lifecycle Callbacks.md",
-    "Basics/Beans.md",
-    "Basics/Bean Scopes.md",
+    "Backbone/1.Basics.md",
     "Introduction.md",
-    "Playlists.md",
-    "Basics/Autowiring.md"
+    "Backbone/3.Undefined.md",
+    "Basics/Event Handling.md",
+    "Basics/Dependency Injection.md",
+    "Basics/Lifecycle Callbacks.md",
+    "Spring Core.md"
   ]
 }
