@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Basics/Dependency Injection.md",
+            "file": "Spring Data/Entity.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basics/Dependency Injection.md",
+                "file": "Spring Data/Entity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
+    "Spring Data/Entity.md",
+    "Spring Data/Spring Data.md",
+    "Spring Data/JPA.md",
+    "Spring Boot/Spring Boot.md",
+    "README.md",
     "Basics/Dependency Injection.md",
     "Basics/Essential Concepts.md",
     "Basics/Event Handling.md",
     "Spring MVC/Spring MVC.md",
-    "Spring MVC/Service.md",
-    "Spring Boot/Spring Boot.md",
-    "Backbone/1.Basics.md",
-    "Playlists.md",
-    "Introduction.md",
-    "Spring Data/Spring Data.md"
+    "Spring MVC/Service.md"
   ]
 }
