@@ -1,4 +1,6 @@
-Idea: handle http the requests, react on them, perform some actions and return some response. Key element of Spring MVC is a Controller
+Idea: handle http the requests, react on them, perform some actions and return some response. Key element of Spring MVC is a Controller 
+
+I'll use Spring project with Spring Web package.
 
 I'll run the application at localhost:8080, and perform endpoint tests with Postman.
 

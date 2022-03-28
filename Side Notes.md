@@ -2,6 +2,7 @@
 
 - Community documentation: https://www.baeldung.com/
 
+- Spring Initializr: https://start.spring.io/
 
 - Obsidian guide: https://www.youtube.com/watch?v=47hOfPGsrqk
 
