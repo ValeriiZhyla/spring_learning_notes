@@ -20,4 +20,4 @@ server.port=${port}
 
 Guide: https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/howto-properties-and-configuration.html
 
-Commonly used properies: https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+Commonly used properies and their defaults: https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
