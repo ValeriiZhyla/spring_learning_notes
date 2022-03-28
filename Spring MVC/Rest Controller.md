@@ -11,6 +11,7 @@ public class HelloController {
 }
 ```
 
+
 ## GET Endpoints
 
 We can return different object types and data structures from controller, not only the strings. Objects will be transformed internally to jsons.
@@ -124,6 +125,7 @@ Get http://localhost:8080/books/12 ->
 Links: 
 - https://www.youtube.com/watch?v=AI2oBJkPK3c&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=18
 
+
 ## POST Endpoints
 We have to set the RequestMethod, and use the _@RequestBody_ annotation. _@RequestBody_ marks, that Http Body contains a JSON, that should be mapped to the Book object.
 
@@ -150,6 +152,7 @@ public void addNewBook(@RequestBody Book book, @PathVariable Long id) {
 Links:
 - https://www.youtube.com/watch?v=AI2oBJkPK3c&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=20
 
+
 ## DELETE Endpoints
 Requires DELETE parameter.
 ```java
@@ -159,5 +162,6 @@ public void addNewBook(@PathVariable Long id) {
 }
 ```
 
-
+Links:
+- https://www.youtube.com/watch?v=AI2oBJkPK3c&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=20
 

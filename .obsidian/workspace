@@ -91,13 +91,13 @@
   "lastOpenFiles": [
     "Spring MVC/Rest Controller.md",
     "Spring MVC/Service.md",
+    "Spring MVC/Controller Interface.md",
+    "Spring Boot/Spring Boot.md",
+    "Spring Boot/SpringBootApplication.md",
+    "Side Notes.md",
+    "Playlists.md",
     "Spring MVC/Spring MVC.md",
     "Backbone/3.Spring MVC.md",
-    "Introduction.md",
-    "Backbone/1.Basics.md",
-    "Backbone/2.Spring Boot.md",
-    "Spring MVC/Controller Interface.md",
-    "Spring Boot/Starting an application.md",
-    "Spring Boot/CommandLineRunner.md"
+    "Introduction.md"
   ]
 }
