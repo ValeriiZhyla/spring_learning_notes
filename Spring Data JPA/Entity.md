@@ -1,4 +1,4 @@
-@Entity Annotation shows to Spring, that this class will be used as model object. Each entity requires the primary key, that is defined with @Id annotation.
+@Entity annotation shows to Spring, that this class will be used as model object. Each entity requires the primary key, that is defined with @Id annotation.
 
 ```java
 import javax.persistence.Entity;

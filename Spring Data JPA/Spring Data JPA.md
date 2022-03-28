@@ -10,3 +10,4 @@ Content:
 - [[JPA]]
 - [[Apache Derby]]
 - [[Entity]]
+- [[Repository]]
