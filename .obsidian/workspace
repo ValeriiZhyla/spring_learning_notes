@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring MVC/Rest Controller.md",
+            "file": "Spring Boot/Application Properies.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring MVC/Rest Controller.md",
+                "file": "Spring Boot/Application Properies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b77c72b4f451b3b4",
   "lastOpenFiles": [
+    "Spring Boot/Application Properies.md",
+    "Spring Boot/Spring Boot.md",
+    "Playlists.md",
     "Spring MVC/Rest Controller.md",
     "Spring MVC/Service.md",
     "Spring MVC/Controller Interface.md",
-    "Spring Boot/Spring Boot.md",
     "Spring Boot/SpringBootApplication.md",
     "Side Notes.md",
-    "Playlists.md",
     "Spring MVC/Spring MVC.md",
-    "Backbone/3.Spring MVC.md",
-    "Introduction.md"
+    "Backbone/3.Spring MVC.md"
   ]
 }
