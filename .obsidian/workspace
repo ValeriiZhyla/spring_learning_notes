@@ -7,8 +7,12 @@
         "id": "1d8f2036ac3b09f2",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Introduction.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
+    "Introduction.md",
     "Basics/Basics.md",
     "Backbone/1.Basics.md",
     "Backbone/2.Spring Boot.md",
@@ -92,7 +98,6 @@
     "Backbone/4.Spring Data JPA.md",
     "Backbone/6.TBD.md",
     "Spring Data JPA/Apache Derby.md",
-    "Spring Data JPA/Spring Data JPA.md",
-    "Spring Data JPA/Extended Repository.md"
+    "Spring Data JPA/Spring Data JPA.md"
   ]
 }

@@ -3,6 +3,7 @@
 [[Playlists]] - All the playlists, that i liked during this learning
 [[Side Notes]] - Information, that is not directly related with spring, but is interesting in context of backend
 
-#start
-#backbone 
 
+Follow the #backbone tag to see the structure of notes.
+
+#start
