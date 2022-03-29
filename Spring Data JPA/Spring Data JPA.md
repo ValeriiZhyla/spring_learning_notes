@@ -10,7 +10,9 @@ Content:
 - [[JPA]]
 - [[Apache Derby]]
 - [[Entity]]
-- [[Repository]]
+- [[CRUD Repository]]
+- [[Extended Repository]]
+- [[JPA Relations]]
 
 
 TODO https://www.youtube.com/watch?v=bEKt7LLEvb0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=30

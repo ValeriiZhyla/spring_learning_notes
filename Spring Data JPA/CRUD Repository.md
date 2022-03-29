@@ -1,6 +1,6 @@
 
 
-We have to create an interface for database connection. If we want simple CRUD database, then we can extend class Crudrepository<Class, PrimaryKeyType>.
+We have to create an interface for database connection. If we want simple CRUD operations, then we can extend class CrudRepository<Class, PrimaryKeyType>.
 
 Only create an interface, and extend the class. No further code. Not a joke.
 ```java
@@ -48,6 +48,8 @@ Important methods:
 - deleteAll(list)
 
 The class representing the model are described in [[Entity]].
+
+The repository with custom methods is described here: [[Extended Repository]]
 
 Links: 
 - https://www.youtube.com/watch?v=z3HnFBzn7DI&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=28

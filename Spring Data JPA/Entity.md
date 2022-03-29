@@ -34,3 +34,13 @@ public class Wine {
     }
 }
 ```
+
+We can also set the table and column names for the database with annotations.
+```java
+@Entity
+@Table(name = "employee")
+public class Employee implements Serializable {
+    @Column(name = "employee_name")
+    private String employeeName;
+}
+```
