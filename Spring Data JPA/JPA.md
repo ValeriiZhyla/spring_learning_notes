@@ -9,3 +9,4 @@ JPA is an abstraction over JDBC
 Links: 
 - https://www.youtube.com/watch?v=WZLTwbeENGs
 - https://www.infoworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html
+- https://www.baeldung.com/jpa-vs-jdbc
