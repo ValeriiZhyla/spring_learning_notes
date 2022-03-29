@@ -7,12 +7,8 @@
         "id": "1d8f2036ac3b09f2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Spring Data JPA/Apache Derby.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Data JPA/Apache Derby.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +84,15 @@
   },
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
+    "Basics/Basics.md",
+    "Backbone/1.Basics.md",
+    "Backbone/2.Spring Boot.md",
+    "Backbone/3.Spring MVC.md",
+    "Backbone/5.Spring Security.md",
+    "Backbone/4.Spring Data JPA.md",
+    "Backbone/6.TBD.md",
     "Spring Data JPA/Apache Derby.md",
     "Spring Data JPA/Spring Data JPA.md",
-    "Spring Data JPA/Extended Repository.md",
-    "Spring Data JPA/JPA.md",
-    "Spring Data JPA/Entity.md",
-    "Spring Data JPA/JPA Relations.md",
-    "Spring Data JPA/CRUD Repository.md",
-    "Spring MVC/Rest Controller.md",
-    "Playlists.md",
-    "Side Notes.md"
+    "Spring Data JPA/Extended Repository.md"
   ]
 }
