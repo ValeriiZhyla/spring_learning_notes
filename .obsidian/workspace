@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring MVC/Servlet.md",
+            "file": "Spring Security/Default User and Password.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring MVC/Servlet.md",
+                "file": "Spring Security/Default User and Password.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
-    "Spring MVC/Servlet.md",
-    "Spring Security/Filters.md",
+    "Spring Security/Default User and Password.md",
+    "Spring Security/Basic concepts.md",
     "Spring Security/Spring Security.md",
+    "Spring Security/Filters.md",
+    "Images/FiltersServlets.png.png",
+    "Spring MVC/Servlet.md",
     "TBD/TODO-List.md",
     "Spring MVC/Spring MVC.md",
     "Spring MVC/Controller Interface.md",
-    "Spring MVC/Rest Controller.md",
-    "Spring Security/Basic concepts.md",
-    "Side Notes.md",
-    "README.md"
+    "Spring MVC/Rest Controller.md"
   ]
 }

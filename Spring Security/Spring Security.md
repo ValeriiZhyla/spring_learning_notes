@@ -2,11 +2,11 @@ Spring Sercurity provides the authentication and access-control.
 
 I'll use the package with dependencies: Spring Web , with Spring Data JPA, Apache Derby Database and Spring Security.
 
-We will get the authentification window and /login endpoint from the box, without single line of code.
+We will get the authentification window and /login endpoint from the box, without single line of code. Spring Security adds mandatory authentication for all API endpoints. It creates one default user with name "user", and generates the security password, that can be seen in console during the startup.
 
 [[Basic concepts]]
-
 [[Filters]]
+[[Default User and Password]]
 
 
 https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=2
