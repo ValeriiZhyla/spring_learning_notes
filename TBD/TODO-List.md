@@ -10,4 +10,3 @@ Spring Data Rest
 
 Spring Data with external database
 
-Servlet

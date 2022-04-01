@@ -11,6 +11,7 @@ public class HelloController {
 }
 ```
 
+Controllers are using Servlets intermally: [[Servlets and Controllers]]
 
 ## GET Endpoints
 
