@@ -1,0 +1,1 @@
+Servlets are mapped to URLs. 
