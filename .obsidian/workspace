@@ -90,14 +90,14 @@
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
     "Spring Security/Spring Security.md",
+    "Spring MVC/Spring MVC.md",
+    "Spring MVC/Controller Interface.md",
+    "Spring MVC/Rest Controller.md",
+    "Spring Security/Basic concepts.md",
+    "TBD/TODO-List.md",
     "Side Notes.md",
     "README.md",
     "Playlists.md",
-    "Spring Security/Basic concepts.md",
-    "Spring MVC/Spring MVC.md",
-    "Spring MVC/Service.md",
-    "Introduction.md",
-    "TBD/TBD.md",
-    "Infrastructure and DevOps/Swagger.md"
+    "Spring MVC/Service.md"
   ]
 }
