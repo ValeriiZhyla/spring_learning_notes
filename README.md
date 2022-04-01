@@ -5,6 +5,7 @@ Content:
 - Basics
 - Spring Boot
 - Spring MVC
-- Spring Data + Embedded Database
+- Spring Data JPA + Embedded Database
+- Spring Security
 - TBD
 

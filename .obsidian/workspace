@@ -90,14 +90,14 @@
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
     "Spring Security/Spring Security.md",
+    "Side Notes.md",
+    "README.md",
+    "Playlists.md",
+    "Spring Security/Basic concepts.md",
+    "Spring MVC/Spring MVC.md",
+    "Spring MVC/Service.md",
+    "Introduction.md",
     "TBD/TBD.md",
-    "Infrastructure and DevOps/Swagger.md",
-    "Infrastructure and DevOps/Infrastructure and DevOps.md",
-    "Backbone/5.Spring Security.md",
-    "Infrastructure and DevOps/Logging.md",
-    "Infrastructure and DevOps/Spring Actuator.md",
-    "Basics/Autowiring.md",
-    "Backbone/4.Spring Data JPA.md",
-    "Spring Data JPA/Entity.md"
+    "Infrastructure and DevOps/Swagger.md"
   ]
 }
