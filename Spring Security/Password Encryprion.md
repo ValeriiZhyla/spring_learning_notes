@@ -3,7 +3,7 @@ Instead, we have to encrypt them with some hash-function.
 
 We can do it by defining a Spring Bean with type PasswordEncoder, and return some specific password encoder from it.
 
-This encoder uses **no hashing**
+This NoOpPasswordEncoder uses **no hashing**. I'll use it at first, for learning purpose.
 
 ```java
 @Bean  

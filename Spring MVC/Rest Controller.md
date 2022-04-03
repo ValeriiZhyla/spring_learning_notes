@@ -13,6 +13,8 @@ public class HelloController {
 
 Controllers are using Servlets intermally: [[Servlets and Controllers]]
 
+# Mapping of HTTP Methods
+
 ## GET Endpoints
 
 We can return different object types and data structures from controller, not only the strings. Objects will be transformed internally to jsons.
@@ -166,3 +168,20 @@ public void addNewBook(@PathVariable Long id) {
 Links:
 - https://www.youtube.com/watch?v=AI2oBJkPK3c&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=20
 
+# Wrappers for Mapping Annotations
+We can also use some wrappera annotations for @RequestMapping, for each HTTP Method.
+
+```java
+    @RequestMapping(method = RequestMethod.GET, value = "/books")
+    public List<Book> getAllBooks() {
+        return bookService.getAllBooks();
+    }
+```
+
+
+```java
+	@GetMapping("/books")
+    public List<Book> getAllBooks() {
+        return bookService.getAllBooks();
+    }
+```

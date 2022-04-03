@@ -1,9 +1,4 @@
-AuthenticationManagerBuilder
-
-
-
-
-We can extend the class WebSecurityConfigurerAdapter and override the method configure() to hardcode the user with some password.
+We can extend the class WebSecurityConfigurerAdapter and override the method configure(AuthenticationManagerBuilder auth) to hardcode the user with some password.
 
 This class should be marked for Spring with _@EnableWebSecurity_ annotation.
 

@@ -10,3 +10,9 @@ Spring Data Rest
 
 Spring Data with external database
 
+Spring Data with JDBC, not JPA
+
+Spring Security: get users from database
+
+Spring Security: OAuth usage
+
