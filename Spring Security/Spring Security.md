@@ -7,6 +7,8 @@ We will get the authentification window and /login endpoint from the box, withou
 [[Basic concepts]]
 [[Filters]]
 [[Default User and Password]]
+[[Hardcoding the Users]]
+[[Password Encryprion]]
 
 
 https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=2

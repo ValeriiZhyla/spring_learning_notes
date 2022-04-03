@@ -69,4 +69,4 @@ Only after the filters are passed, request will be handled with corresponding [[
 
 Link: https://www.baeldung.com/spring-boot-add-filter
 
-![[FiltersServlets.png.png]]
+![[FiltersServlets.png]]
