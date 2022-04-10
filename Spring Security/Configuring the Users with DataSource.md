@@ -1,7 +1,7 @@
-In practice the users are stored in some database and accessed via JDBC.
+In practice the users are stored in some database. If we want to work with this database with JDBC, we have to use an instance of _DataSource_.
 
+We have to add the _DataSource_, and Spring will inject it. If we add the [[H2 Database]] to dependencies, Spring will start automatically.
 
-We have to add the data source, and Spring will inject it. If we add the [[H2 Database]] to dependencies, spring will start automatically.
 
 ## Hardcoding the Users and Schema
 
@@ -38,6 +38,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 ```
 
 ## Getting the Users from Database
+### Default Schema
 If the database with users and authorities is configured and filled, we can just tell spring to use it.
 
 ```java
@@ -61,7 +62,40 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 Required schema is described here: [[Default User Schema]].
 
-I will use the simple [[Reference Controller]] for testing.
+### Custom Schema
+If we don't want to use default schema, we have to pass the SQL Queries in corresponding authentication methods: _usersByUsernameQuery(String query)_ and _authoritiesByUsernameQuery(String query)_.
+
+```java
+@EnableWebSecurity
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+    private final DataSource dataSource;
+
+    @Autowired
+    public SecurityConfiguration(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.jdbcAuthentication()
+            .dataSource(dataSource)
+            .usersByUsernameQuery(
+                "SELECT username, password, enabled " + 
+                    "FROM users " + 
+                    "WHERE username = ?"
+            )
+            .authoritiesByUsernameQuery(
+                "SELECT username, authority " +
+                    "FROM authorities " +
+                    "WHERE username = ?"
+            );
+    }
+}
+```
+
+
+## Links
 
 Video: https://www.youtube.com/watch?v=LKvrFltAgCQ&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=7
 

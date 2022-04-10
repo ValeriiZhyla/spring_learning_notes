@@ -32,6 +32,6 @@ Spring will use this configuration, to build the instance of AuthenticationManag
 
 In general, we don't want to store the passwords as plain text. More about [[Password Encryprion]].
 
-Hardcoding the users is good for beginning, but in practice the users are stored in some database and accessed via JDBC: [[Getting the Users from Database]]
+Hardcoding the users is good for beginning, but in practice the users are stored in some database and accessed via JDBC: [[Configuring the Users with DataSource]]
 
 Video: https://www.youtube.com/watch?v=iyXne7dIn7U

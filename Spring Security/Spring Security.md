@@ -3,6 +3,7 @@ Spring Sercurity provides the authentication and access-control.
 I'll use the package with dependencies: 
 - Spring Web 
 - Spring Security
+- Spring Data JPA
 - H2 Database
 - JDBC API
 
@@ -15,7 +16,7 @@ We will get the authentification window, /login and /logout endpoints from the b
 [[Hardcoding the Users]]
 [[Password Encryprion]]
 [[Implementing Authorization]]
-[[Getting the Users from Database]]
+[[Configuring the Users with DataSource]]
 
 
 https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=2

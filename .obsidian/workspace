@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Security/Getting the Users from Database.md",
+            "file": "Spring Security/Configuring the Users with UserDetailsService.md",
             "mode": "source",
             "source": true
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 350
   },
   "right": {
     "id": "4206c3ce913ef184",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Security/Getting the Users from Database.md",
+                "file": "Spring Security/Configuring the Users with UserDetailsService.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
-    "Spring Security/Getting the Users from Database.md",
+    "Spring Security/Configuring the Users with UserDetailsService.md",
+    "Spring Security/Getting a Users from Database with JPA.md",
+    "Databases and JDBC/Set up the Database Connection.md",
+    "Databases and JDBC/H2 Database.md",
     "Spring Security/Default User Schema.md",
-    "Spring Security/Implementing Authorization.md",
-    "Spring Security/Password Encryprion.md",
-    "Spring Security/Password Hashing Concepts.md",
+    "TBD/TODO-List.md",
     "Spring Security/Spring Security.md",
-    "Spring Security/Hardcoding the Users.md",
+    "Spring Security/Configuring the Users with DataSource.md",
     "Spring Security/Default User and Password.md",
-    "Spring Security/Filters.md",
-    "Spring Security/Reference Controller.md"
+    "Spring Security/Basic concepts.md"
   ]
 }

@@ -37,8 +37,9 @@ ALTER TABLE AUTHORITIES ADD CONSTRAINT AUTHORITIES_UNIQUE UNIQUE (USERNAME, AUTH
 ALTER TABLE AUTHORITIES ADD CONSTRAINT AUTHORITIES_FK1 FOREIGN KEY (USERNAME) REFERENCES USERS (USERNAME) ENABLE;
 ```
 
-
 Default Schema documentation: https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html#servlet-authentication-jdbc-schema
+
+We can use different table and column structure, but then we have to use explicit SQL statements. More here: [[Configuring the Users with DataSource#Custom Schema]].
 
 ## Initialize Users
 We can initialize the database object by creating the **data.sql** file in ressource directory. The SQL Statements will be executed on startup.

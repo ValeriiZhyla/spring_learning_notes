@@ -16,3 +16,8 @@ Spring Security: authentication from database
 
 Spring Security: OAuth usage
 
+PagingAndSortingRepository, JpaRepository
+
+@GeneratedValue(strategy = GenerationType.AUTO) (and other strategies)
+
+JPA settings
