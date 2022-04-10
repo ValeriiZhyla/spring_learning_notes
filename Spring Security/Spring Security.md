@@ -17,6 +17,7 @@ We will get the authentification window, /login and /logout endpoints from the b
 [[Password Encryprion]]
 [[Implementing Authorization]]
 [[Configuring the Users with DataSource]]
+[[Configuring the Users with UserDetailsService]]
 
 
 https://www.youtube.com/watch?v=sm-8qfMWEV8&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=2

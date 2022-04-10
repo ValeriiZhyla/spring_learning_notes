@@ -151,5 +151,115 @@ public class User {
 And a repository, to get the users by name:
 
 ```java
+public interface UserRepository extends JpaRepository<User, Integer> {
+    Optional<User> findByUsername(String userName);
+}
+```
+
+Create a mapping from database entity to _UserDetails_ object. Note, that roles in database is a CSV string, and it has to be converted to list of _SimpleGrantedAuthority_ objects.
+
+```java
+public class CustomUserDetails implements UserDetails {
+    private final String userName;
+    private final String password;
+    private final boolean active;
+    private final List<GrantedAuthority> authorities;
+
+    public CustomUserDetails(User user) {
+        this.userName = user.getUsername();
+        this.password = user.getPassword();
+        this.active = user.isActive();
+        this.authorities = Arrays.stream(user.getRoles().split(","))
+            .map(SimpleGrantedAuthority::new)
+            .collect(Collectors.toList());
+
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return authorities;
+    }
+
+    @Override
+    public String getPassword() {
+        return password;
+    }
+
+    @Override
+    public String getUsername() {
+        return userName;
+    }
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return active;
+    }
+}
 
 ```
+
+Then we have to implement the _UserDetailService_, that returns a _CustomUserDetails_ object, if an user with given userName was found in database.
+
+```java
+@Service
+public class JpaUserDetailsService implements UserDetailsService {
+
+    private final UserRepository userRepository;
+
+    @Autowired
+    public JpaUserDetailsService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
+        Optional<User> user = userRepository.findByUsername(userName);
+        user.orElseThrow(() -> new UsernameNotFoundException("Not found: " + userName));
+        return user.map(CustomUserDetails::new).get();
+    }
+}
+```
+
+At the end, edit the _SecurityConfiguration_, to use the _JpaUserDetailsService_.
+
+```java
+@EnableWebSecurity
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+    private final UserDetailsService userDetailsService;
+
+    @Autowired
+    public SecurityConfiguration(JpaUserDetailsService userDetailsService) {
+        this.userDetailsService = userDetailsService;
+    }
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService);
+    }
+
+    @Bean
+    public PasswordEncoder getPasswordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
+    }
+}
+
+```
+
+## Links
+https://www.youtube.com/watch?v=TNt3GHuayXs&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=8

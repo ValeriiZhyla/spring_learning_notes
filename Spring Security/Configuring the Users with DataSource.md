@@ -34,6 +34,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                     .roles("ADMIN")
         );
     }
+    
+    @Bean
+    public PasswordEncoder getPasswordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
+    }
 }
 ```
 
@@ -56,6 +61,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.jdbcAuthentication()
             .dataSource(dataSource);
+    }
+
+    @Bean
+    public PasswordEncoder getPasswordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
     }
 }
 ```
@@ -90,6 +100,11 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                     "FROM authorities " +
                     "WHERE username = ?"
             );
+    }
+
+    @Bean
+    public PasswordEncoder getPasswordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
     }
 }
 ```

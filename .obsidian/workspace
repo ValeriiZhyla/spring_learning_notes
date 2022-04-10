@@ -90,14 +90,14 @@
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
     "Spring Security/Configuring the Users with UserDetailsService.md",
-    "Spring Security/Getting a Users from Database with JPA.md",
-    "Databases and JDBC/Set up the Database Connection.md",
-    "Databases and JDBC/H2 Database.md",
-    "Spring Security/Default User Schema.md",
-    "TBD/TODO-List.md",
-    "Spring Security/Spring Security.md",
     "Spring Security/Configuring the Users with DataSource.md",
-    "Spring Security/Default User and Password.md",
-    "Spring Security/Basic concepts.md"
+    "Spring Security/Spring Security.md",
+    "Spring Security/Reference Controller.md",
+    "Spring Security/Getting a Users from Database with JPA.md",
+    "Spring Security/Hardcoding the Users.md",
+    "Databases and JDBC/H2 Database.md",
+    "Databases and JDBC/Set up the Database Connection.md",
+    "Spring Security/Default User Schema.md",
+    "TBD/TODO-List.md"
   ]
 }
