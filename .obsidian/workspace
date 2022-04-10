@@ -90,14 +90,14 @@
   "active": "1d8f2036ac3b09f2",
   "lastOpenFiles": [
     "Spring Security/Getting the Users from Database.md",
+    "Spring Security/Default User Schema.md",
     "Spring Security/Implementing Authorization.md",
-    "Spring Security/Reference Controller.md",
-    "Spring Security/Password Hashing Concepts.md",
     "Spring Security/Password Encryprion.md",
+    "Spring Security/Password Hashing Concepts.md",
+    "Spring Security/Spring Security.md",
     "Spring Security/Hardcoding the Users.md",
-    "Spring Security/Filters.md",
     "Spring Security/Default User and Password.md",
-    "Spring Data JPA/H2 Database.md",
-    "Spring Security/Spring Security.md"
+    "Spring Security/Filters.md",
+    "Spring Security/Reference Controller.md"
   ]
 }
