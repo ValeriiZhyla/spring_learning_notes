@@ -5,6 +5,7 @@ Spring will use the default user schema configuration, if no further configurati
 We can set up the schema for the in-memory databases by adding the file  **schema.sql** in ressources folder.
 
 Here is the abstract structure:
+
 ```sql
 create table users(
 	username varchar_ignorecase(50) not null primary key,
@@ -21,6 +22,7 @@ create unique index ix_auth_username on authorities (username,authority);
 ```
 
 Oracle schema:
+
 ```sql
 CREATE TABLE USERS (
     USERNAME NVARCHAR2(128) PRIMARY KEY,

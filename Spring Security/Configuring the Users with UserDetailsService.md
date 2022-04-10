@@ -86,7 +86,7 @@ public class HardcodedUserDetails implements UserDetails {
 }
 ```
 
-## Accessing the External Database with JPA
+## Accessing the Users from External Database with JPA
 Let's assume, that we have configuted some external database with table _users_, where each user has some id, username, password, active state and roles.
 
 Connecting to External Database: [[Set up the Database Connection]]
