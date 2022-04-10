@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Security/Default User Schema.md",
+            "file": "Spring Security/Passwords/Password Encryprion.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "9292a62a9764f726",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Spring Security/Default User and Password.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Security/Default User Schema.md",
+                "file": "Spring Security/Default User and Password.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5795968296998790",
+  "active": "9292a62a9764f726",
   "lastOpenFiles": [
-    "Spring Security/Default User Schema.md",
     "Spring Security/Default User and Password.md",
+    "Spring Security/Passwords/Password Hashing Concepts.md",
+    "Spring Security/Passwords/Password Encryprion.md",
     "Spring Security/Authentication/Hardcoding the Users.md",
+    "Spring Security/Default User Schema.md",
     "Spring Security/Spring Security.md",
     "Spring Security/Filters.md",
     "Spring Security/Authentication/Configuring the Users with DataSource.md",
     "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
-    "Spring Security/Implementing Authentication.md",
-    "Spring Security/Implementing Authorization.md",
-    "Spring Security/Password Encryprion.md"
+    "Spring Security/Implementing Authentication.md"
   ]
 }
