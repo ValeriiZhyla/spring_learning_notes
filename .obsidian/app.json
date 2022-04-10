@@ -1,4 +1,5 @@
 {
   "legacyEditor": false,
-  "livePreview": false
+  "livePreview": false,
+  "newFileLocation": "current"
 }

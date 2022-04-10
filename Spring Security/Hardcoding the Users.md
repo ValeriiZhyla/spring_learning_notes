@@ -30,6 +30,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 Spring will use this configuration, to build the instance of AuthenticationManager using the AuthenticationManagerBuilder.
 
-We don't want to store the passwords as plain text. More about [[Password Encryprion]].
+In general, we don't want to store the passwords as plain text. More about [[Password Encryprion]].
+
+Hardcoding the users is good for beginning, but in practice the users are stored in some database and accessed via JDBC: [[Getting the Users from Database]]
 
 Video: https://www.youtube.com/watch?v=iyXne7dIn7U

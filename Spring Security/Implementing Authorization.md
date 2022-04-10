@@ -1,27 +1,4 @@
-Let's create a simple controller with three endpoints:
-
-```java
-@RestController
-public class HomeResource {
-
-    @GetMapping("/")
-    public String home() {
-        return "Welcome";
-    }
-
-    @GetMapping("/user")
-    public String homeUser() {
-        return "Welcome User";
-    }
-
-    @GetMapping("/admin")
-    public String homeAdmin() {
-        return "Welcome Admin";
-    }
-}
-```
-
-Then we have to create the configuration, that extends the WebSecurityConfigurerAdapter class and is registered as Spring Security Configuration Bean with _@EnableWebSecurity_ annotation.
+We have to create the configuration, that extends the WebSecurityConfigurerAdapter class and is registered as Spring Security Configuration Bean with _@EnableWebSecurity_ annotation.
 
 To configure the authorization rules for different roles, we ahve to override configure(HttpSecurity http) method.
 
@@ -56,6 +33,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .and().formLogin();
     }
 ```
+
+I will use the simple [[Reference Controller]] for testing.
 
 
 Video: https://www.youtube.com/watch?v=payxWrmF_0k&list=PLqq-6Pq4lTTYTEooakHchTGglSvkZAjnE&index=5
