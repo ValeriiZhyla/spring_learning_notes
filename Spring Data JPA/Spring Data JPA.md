@@ -1,4 +1,6 @@
-I'll use Spring Data with Apache Derby (not usual database, but simple Embedded Database). Just create the new project on Spring Initializr with:
+We can use Spring Data JPA to map tables fr
+
+I'll use Spring Data with Apache Derby (not usual database, but simple embedded database). Just create the new project on Spring Initializr with:
 
 - Spring Web
 - Spring Data JPA

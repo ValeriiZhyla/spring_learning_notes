@@ -1,3 +1,7 @@
+_@Document_ annotation defines a name of persisting object in MongoDB.
+
+Let's create a model object, that represents a User with credentials.
+
 ```java
 @Document("user")
 public class User {
@@ -38,16 +42,15 @@ public class User {
 }
 ```
 
+We can use a special repository interface type, the **MongoRepository** to get users from database.
 
 ```java
 public interface UserRepository extends MongoRepository<User, String> {
 
     @Query("{name:'?0'}")
     User findUserByUsername(String username);
-
-    long count();
 }
 
 ```
 
-TODO MongoRepository, Query annotation
+More about [[MongoRepository]].
