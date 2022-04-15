@@ -90,14 +90,14 @@
   "active": "9292a62a9764f726",
   "lastOpenFiles": [
     "Spring Data MongoDB/MongoDB Queries.md",
+    "Images/2022-04-15 18_42_38-6. MongoDB repositories — Mozilla Firefox.png",
+    "Images/MongoDB_Queries_Table.png",
+    "Images/MongoDB_Queries.webp",
+    "MongoDB_Query2-1.webp",
     "Spring Data MongoDB/MongoRepository.md",
     "Spring Data MongoDB/Connecting to MongoDB.md",
     "Spring Data MongoDB/Getting Data from MongoDB.md",
     "Spring Data MongoDB/Creating a MongoDB instance.md",
-    "Spring Data MongoDB/Spring Data MongoDB.md",
-    "Spring Data JPA/Extended Repository.md",
-    "Spring Data JPA/JPA Relations.md",
-    "Spring Data JPA/JPA.md",
-    "Spring Data JPA/CRUD Repository.md"
+    "Spring Data MongoDB/Spring Data MongoDB.md"
   ]
 }
