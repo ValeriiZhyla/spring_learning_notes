@@ -20,8 +20,6 @@ PagingAndSortingRepository, JpaRepository
 
 JPA settings
 
-MongoRepository
-
 JPA for rdbms only
 
 How to get easy RDBMS, like postgres
