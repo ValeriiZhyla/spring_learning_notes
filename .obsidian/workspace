@@ -4,23 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5795968296998790",
+        "id": "9292a62a9764f726",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Security/Passwords/Password Encryprion.md",
+            "file": "Databases/Set up the Database Connection.md",
             "mode": "source",
             "source": true
           }
-        }
-      },
-      {
-        "id": "9292a62a9764f726",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -77,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Databases/Set up the Database Connection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +89,15 @@
   },
   "active": "9292a62a9764f726",
   "lastOpenFiles": [
+    "Databases/Set up the Database Connection.md",
+    "Playlists.md",
+    "Side Notes.md",
+    "TBD/TODO-List.md",
     "Spring Security/Getting a Users from Database with JPA.md",
     "Spring Security/Default User Schema.md",
     "Spring Security/Default User and Password.md",
     "Spring Security/Passwords/Password Hashing Concepts.md",
     "Spring Security/Passwords/Password Encryprion.md",
-    "Spring Security/Authentication/Hardcoding the Users.md",
-    "Spring Security/Spring Security.md",
-    "Spring Security/Filters.md",
-    "Spring Security/Authentication/Configuring the Users with DataSource.md",
-    "Spring Security/Authentication/Configuring the Users with UserDetailsService.md"
+    "Spring Security/Authentication/Hardcoding the Users.md"
   ]
 }
