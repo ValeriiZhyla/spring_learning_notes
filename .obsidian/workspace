@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Databases/Set up the Database Connection.md",
+            "file": "Spring Data MongoDB/Spring Data MongoDB.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Set up the Database Connection.md",
+                "file": "Spring Data MongoDB/Spring Data MongoDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "9292a62a9764f726",
   "lastOpenFiles": [
-    "Databases/Set up the Database Connection.md",
-    "Playlists.md",
-    "Side Notes.md",
+    "Spring Data MongoDB/Spring Data MongoDB.md",
+    "Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
+    "Spring Data MongoDB/Connecting to MongoDB.md",
+    "Spring Data MongoDB/Creating a MongoDB instance.md",
+    "Spring Data MongoDB/Model Class.md",
     "TBD/TODO-List.md",
-    "Spring Security/Getting a Users from Database with JPA.md",
-    "Spring Security/Default User Schema.md",
-    "Spring Security/Default User and Password.md",
-    "Spring Security/Passwords/Password Hashing Concepts.md",
-    "Spring Security/Passwords/Password Encryprion.md",
-    "Spring Security/Authentication/Hardcoding the Users.md"
+    "Spring Data MongoDB/MongoRepository.md",
+    "Spring Data JPA/Extended Repository.md",
+    "Playlists.md",
+    "Side Notes.md"
   ]
 }
