@@ -42,15 +42,17 @@ public class User {
 }
 ```
 
-We can use a special repository interface type, the **MongoRepository** to get users from database.
+We can use a special repository interface type, the **MongoRepository** to get users from database. 
 
 ```java
 public interface UserRepository extends MongoRepository<User, String> {
-
-    @Query("{name:'?0'}")
+	
     User findUserByUsername(String username);
+    
 }
 
 ```
 
-More about [[MongoRepository]].
+The implementation of the function will be automatically derived from it's name. The patterns of function naming are described here: https://www.baeldung.com/spring-data-derived-queries
+
+More about [[MongoRepository]]
