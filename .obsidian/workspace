@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Data/Spring Data JPA/Spring Data JPA.md",
+            "file": "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Data/Spring Data JPA/Spring Data JPA.md",
+                "file": "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "9292a62a9764f726",
   "lastOpenFiles": [
-    "Spring Data/Spring Data JPA/Spring Data JPA.md",
-    "Spring Data/Spring Data JPA/Connecting to Database with JPA.md",
-    "Spring Data/Spring Data MongoDB/Connecting to MongoDB.md",
+    "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
+    "Spring Data/Spring Data MongoDB/Creating a MongoDB instance.md",
+    "Spring Data/Spring Data MongoDB/Spring Data MongoDB.md",
+    "Spring Data/Spring Data JPA/JPA Overview.md",
     "Spring Data/Spring Data JDBC/Spring Data JDBC.md",
     "Spring Data/Spring Data.md",
-    "Spring Data/SpringDa.md",
-    "Spring Data/Untitled.md",
-    "Spring Data/Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
-    "Spring Data/Spring Data JPA/Databases/H2 Database.md",
-    "Spring Data/Spring Data JPA/Databases/Apache Derby.md"
+    "Backbone/4.Spring Data.md",
+    "Backbone/5.Spring Data MongoDB.md",
+    "README.md",
+    "Spring Data/Spring Data JPA/Spring Data JPA.md"
   ]
 }

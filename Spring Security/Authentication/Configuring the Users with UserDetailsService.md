@@ -89,7 +89,7 @@ public class HardcodedUserDetails implements UserDetails {
 ## Accessing the Users from External Database with JPA
 Let's assume, that we have configuted some external database with table _users_, where each user has some id, username, password, active state and roles.
 
-Connecting to External Database: [[Connecting to MongoDB]]
+Connecting to External Database: [[Connecting to Database with JPA]]
 
 We have to define the user JPA Entity:
 

@@ -5,8 +5,7 @@ Content:
 - Basics
 - Spring Boot
 - Spring MVC
-- Spring Data JPA
-- Spring Data MongoDB
+- Spring Data (JDBC, JPA, MongoDB)
 - Spring Security
 - TBD
 
