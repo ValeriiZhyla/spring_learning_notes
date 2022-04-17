@@ -19,7 +19,7 @@ spring.data.mongodb.database=mygrocerylist
 My properties:
 
 ```properties
-spring.data.mongodb.uri=mongodb+srv://admin:admin_password@sandboxcluster.ngis0.mongodb.net/sandbox
+spring.data.mongodb.uri=mongodb+srv://admin:************@sandboxcluster.ngis0.mongodb.net/sandbox
 
 spring.data.mongodb.database=sandbox
 ```
