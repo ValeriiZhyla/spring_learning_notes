@@ -18,5 +18,8 @@ Content:
 - [[Extended Repository]]
 - [[JPA Relations]]
 
+Normal database:
+- [[Connecting to Database with JPA]]
+
 
 TODO https://www.youtube.com/watch?v=bEKt7LLEvb0&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=30
