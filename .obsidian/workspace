@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
+            "file": "Spring Data/Spring Data JPA/Spring Data JPA.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
+                "file": "Spring Data/Spring Data JPA/Spring Data JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,20 +84,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "9292a62a9764f726",
   "lastOpenFiles": [
-    "Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
-    "TBD/TODO-List.md",
-    "Spring Data MongoDB/MongoDB Queries.md",
-    "Images/2022-04-15 18_42_38-6. MongoDB repositories — Mozilla Firefox.png",
-    "Images/MongoDB_Queries_Table.png",
-    "Images/MongoDB_Queries.webp",
-    "MongoDB_Query2-1.webp",
-    "Spring Data MongoDB/MongoRepository.md",
-    "Spring Data MongoDB/Connecting to MongoDB.md",
-    "Spring Data MongoDB/Getting Data from MongoDB.md"
+    "Spring Data/Spring Data JPA/Spring Data JPA.md",
+    "Spring Data/Spring Data JDBC/Spring Data JDBC.md",
+    "Spring Data/Spring Data.md",
+    "Spring Data/SpringDa.md",
+    "Spring Data/Untitled.md",
+    "Spring Data/Spring Data MongoDB/Spring Data MongoDB vs Spring Data JPA.md",
+    "Spring Data/Spring Data JPA/Databases/H2 Database.md",
+    "Spring Data/Spring Data JPA/Databases/Apache Derby.md",
+    "Spring Data/Spring Data JPA/JPA Overview.md",
+    "Spring Data/Spring Data JPA/JPA Relations.md"
   ]
 }

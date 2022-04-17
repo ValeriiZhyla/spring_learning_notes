@@ -6,7 +6,6 @@ public interface UserRepository extends MongoRepository<User, String> {
     User findUserByUsername(String username);
     
 }
-
 ```
 
 The implementation of the function will be automatically derived from it's name. The patterns of function naming are described here: https://www.baeldung.com/spring-data-derived-queries
@@ -20,7 +19,6 @@ public interface UserRepository extends MongoRepository<User, String> {
     User findUserByUsername(String username);
     
 }
-
 ```
 
 More about [[MongoDB Queries]]
