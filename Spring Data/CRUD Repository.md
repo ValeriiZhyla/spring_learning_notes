@@ -1,4 +1,4 @@
-
+Documentation: 
 
 We have to create an interface for database connection. If we want simple CRUD operations, then we can extend class CrudRepository<Class, PrimaryKeyType>.
 
@@ -49,7 +49,7 @@ Important methods:
 
 The class representing the model are described in [[Entity]].
 
-The repository with custom methods is described here: [[Extended Repository]]
+The repository with custom methods is described here: [[Repository Usage]]
 
 Links: 
 - https://www.youtube.com/watch?v=z3HnFBzn7DI&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x&index=28

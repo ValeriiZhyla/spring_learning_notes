@@ -15,7 +15,7 @@ Content:
 - [[Apache Derby]]
 - [[Entity]]
 - [[CRUD Repository]]
-- [[Extended Repository]]
+- [[Repository Usage]]
 - [[JPA Relations]]
 
 Normal database:

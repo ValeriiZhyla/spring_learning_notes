@@ -8,7 +8,6 @@ Logging
 
 Spring Data Rest
 
-Spring Data with external database
 
 Spring Data with JDBC, not JPA
 

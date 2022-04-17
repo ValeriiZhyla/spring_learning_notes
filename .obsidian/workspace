@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9292a62a9764f726",
+        "id": "cc8a1dcc5ae1ec20",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
+            "file": "Spring Data/CRUD Repository.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
+                "file": "Spring Data/CRUD Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "9292a62a9764f726",
+  "active": "cc8a1dcc5ae1ec20",
   "lastOpenFiles": [
+    "Spring Data/CRUD Repository.md",
+    "Spring Data/JPA Repository.md",
+    "Spring Data/PagingAndSortingRepository.md",
+    "Spring Data/Repository Types.md",
+    "Spring Data/Spring Data JPA/Repository Usage.md",
+    "Spring Data/Spring Data.md",
+    "TBD/TODO-List.md",
     "Spring Security/Authentication/Configuring the Users with UserDetailsService.md",
     "Spring Data/Spring Data MongoDB/Creating a MongoDB instance.md",
-    "Spring Data/Spring Data MongoDB/Spring Data MongoDB.md",
-    "Spring Data/Spring Data JPA/JPA Overview.md",
-    "Spring Data/Spring Data JDBC/Spring Data JDBC.md",
-    "Spring Data/Spring Data.md",
-    "Backbone/4.Spring Data.md",
-    "Backbone/5.Spring Data MongoDB.md",
-    "README.md",
-    "Spring Data/Spring Data JPA/Spring Data JPA.md"
+    "Spring Data/Spring Data MongoDB/Spring Data MongoDB.md"
   ]
 }

@@ -1,0 +1,1 @@
+Documentation: https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html
