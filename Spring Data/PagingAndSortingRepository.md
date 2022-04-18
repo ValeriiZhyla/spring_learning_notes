@@ -46,6 +46,8 @@ Paging (or pagination) is helpful, when we have a large dataset and we want to p
 
 To use it, we have to create a PageRequest object, which defines, which pages we want to get and how many object should this page contain.
 
+**The action, that is achieved with paging, is aquivalent to "WHERE ROWNUM <= 5" in Oracle or "LIMIT 5" in PostgreSQL**
+
 ```java
 Pageable firstPageWithFiveElements = PageRequest.of(0, 5);
 
