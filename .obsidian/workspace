@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Spring Data/PagingAndSortingRepository.md",
-            "mode": "preview",
+            "file": "Spring Data/JPA Repository.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Data/PagingAndSortingRepository.md",
+                "file": "Spring Data/JPA Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "cc8a1dcc5ae1ec20",
   "lastOpenFiles": [
+    "Spring Data/JPA Repository.md",
+    "Spring Data/Spring Data JPA/Spring Data JPA.md",
+    "Spring Data/Spring Data MongoDB/MongoRepository.md",
     "Spring Data/PagingAndSortingRepository.md",
     "Spring Data/Repository Types.md",
-    "Spring Data/JPA Repository.md",
     "README.md",
     "Introduction.md",
     "Spring Data/CRUD Repository.md",
     "Spring Data/Spring Data JPA/Repository Usage.md",
-    "Spring Data/Spring Data.md",
-    "TBD/TODO-List.md",
-    "Spring Security/Authentication/Configuring the Users with UserDetailsService.md"
+    "Spring Data/Spring Data.md"
   ]
 }

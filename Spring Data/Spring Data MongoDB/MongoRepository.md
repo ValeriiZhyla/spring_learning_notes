@@ -21,4 +21,6 @@ public interface UserRepository extends MongoRepository<User, String> {
 }
 ```
 
-More about [[MongoDB Queries]]
+More about [[MongoDB Queries]].
+
+Documentation: https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/repository/MongoRepository.html

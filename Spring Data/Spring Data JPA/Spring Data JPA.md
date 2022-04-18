@@ -17,6 +17,7 @@ Content:
 - [[CRUD Repository]]
 - [[Repository Usage]]
 - [[JPA Relations]]
+- [[JPA Repository]]
 
 Normal database:
 - [[Connecting to Database with JPA]]
