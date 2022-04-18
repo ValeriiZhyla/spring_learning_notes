@@ -90,13 +90,13 @@
   "active": "cc8a1dcc5ae1ec20",
   "lastOpenFiles": [
     "Spring Data/JPA Repository.md",
+    "Spring Data/CRUD Repository.md",
     "Spring Data/Spring Data JPA/Spring Data JPA.md",
+    "Spring Data/Repository Types.md",
     "Spring Data/Spring Data MongoDB/MongoRepository.md",
     "Spring Data/PagingAndSortingRepository.md",
-    "Spring Data/Repository Types.md",
     "README.md",
     "Introduction.md",
-    "Spring Data/CRUD Repository.md",
     "Spring Data/Spring Data JPA/Repository Usage.md",
     "Spring Data/Spring Data.md"
   ]

@@ -2,4 +2,4 @@
 [[PagingAndSortingRepository]]
 [[JPA Repository]]
 
-Documentation: https://www.baeldung.com/spring-data-repositories
+Documentation and comparison: https://www.baeldung.com/spring-data-repositories
