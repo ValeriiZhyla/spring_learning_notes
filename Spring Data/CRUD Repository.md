@@ -1,4 +1,4 @@
-Documentation: 
+Documentation: https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html
 
 We have to create an interface for database connection. If we want simple CRUD operations, then we can extend class CrudRepository<Class, PrimaryKeyType>.
 
